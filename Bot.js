@@ -1,7 +1,6 @@
 const SteamUser = require('steam-user');
 const SteamTotp = require('steam-totp');
 const SteamCommunity = require('steamcommunity');
-const TradeOfferManager = require('steam-tradeoffer-manager');
 const config = require('./config.json');
 
 const client = new SteamUser();
