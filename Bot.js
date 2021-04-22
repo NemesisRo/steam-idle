@@ -22,7 +22,7 @@ client.logOn(logOnOptions);
 client.on('friendRelationship', (steamid, relationship) => {
   if (relationship === 2) {
     client.addFriend(steamid);
-    client.chatMessage(steamid, 'Hello there! Thanks for adding me!');
+    client.chatMessage(steamid, 'Hi! Thx 4 Adding me, Im currently Idling!');
   }
 });
 
